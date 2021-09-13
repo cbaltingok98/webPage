@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header, section{
+    overflow-x: hidden;
+}
+
+header{
+    background: #dd2476;
+    background: linear-gradient(#0f55a5, #257de2);
+}
+header .row .col-lg-8{
+    
+    padding: 10vmin 1vmin;
+    padding-bottom: 0vmin;
+}
+header .isim{
+    font-size: 65px;
+    color: white;
+}
+header .isimDes{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    margin: 0 100px 0 100px;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+header .row .col-lg-4 img{
+    width: 90%;
+}
+.berkHeaderPhoto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul .nav-link {
+    color: white;
+    transition-duration: 0.3s;
+}
+ul .nav-link:hover{
+    color: black;
+}
+.aboutMeParagraph{
+    text-align: justify;
+}
+.section-1 {
+    padding: 20vmin 0 5vmin 0;
+    margin-bottom: 5vmin;
+}
+
+.section-1 .row .col-md-5 .pray img{
+    opacity: 0.9;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-5:last-child{
+    position: relative;
+}
+
+.section-1 .row .col-md-7 .panel{
+    
+    top: 0vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 0vmin 5vmin 10vmin 5vmin;
+    margin-bottom: 5vmin;
+    box-shadow: 5px 25px 42px rgba(0, 0, 0, 0.2);
+    
+}
+.section-1 .row .col-md-7 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.section-1 .row .col-md-7 .panel p {
+    font-size: 0.9em;
+    color: black;
+}
+.section-1 .panel p {
+    font-weight: bold;
+}
+.section-1 i{
+    font-size: 40px;
+    color: black;
+    padding: 0 15px 0 15px;
+    margin-top: 30px;
+    transition-duration: 0.3s;
+}
+
+.section-1 i:hover{
+    color: #257de2;
+}
+
+.section-2{
+    margin-top: 5vmin;
+}
+.skillsRow {
+    margin-top: 50px;
+}
+.skillsImg {
+    height: 150px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.skillsImgExpress {
+    height: 75px;
+}
+
+.myGamesLink:hover {
+    text-decoration: none;
+}
+
+.numbers .rect {
+    position: relative;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(5, 122, 200, 0.548)
+}
+
+#mygames {
+    margin-top: 80px;
+}
+.my_games_section {
+    margin-top: 10px;
+}
+
+
+.numbers .rect i {
+    font-size: 37px;
+    padding-bottom: 8px;
+}
+
+.numbers .rect h1{
+    font-size: 25px;
+}
+.numbers .rect p{
+  margin-bottom: 3px;
+}
+
+.numbers .rect_myGames {
+    padding-top: 6px;
+}
+
+.numbers .rect_myGames img {
+    height: 180px;
+    border-radius: .5em;    
+}
+
+.numbers .rect_myGames .colord {
+    height: 190px;
+}
+
+.store-badge{
+    width: 110px;
+    height: 45px;
+}
+
+.store-badge-google{
+    width: 125px;
+    height: 52.5px;
+}
+
+.main-container-games {
+	max-width: 885px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px auto 50px auto;
+}
+
+.container-games {
+	margin: 5px;
+    padding: 5px;
+}
+
+.icon-container-games img {
+	margin: 10px auto;
+	width: 180px;
+	height: 180px;
+	border-radius: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: black;
+	position: relative;
+}
+
+.game-h2 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+
+#contactCard{
+    margin-top: 10vmin;
+}
+#loginForm {
+    margin-top: 10%;
+    border: 2px solid grey;
+}
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    
+   
+}
+
+#myBar {
+    
+    width: 80%;
+    height: 30px;
+    background-color: #257de2;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+    margin-top: 5vmin;
+}
+
+footer h1 {
+    color: white;
+    font-size: 30px;
+}
+
+footer i{
+    font-size: 40px;
+    color: white;
+    padding: 0 15px 0 15px;
+    transition-duration: 0.3s;
+    
+}
+footer i:hover{
+    color: #257de2;
+}
+
+@media (max-width: 995px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+    header .row .col-lg-4 img {
+        width: 50%;
+    }
+    header .isim {
+        font-size: 35px;
+    }
+    header .isimDes {
+        font-size: 20px;
+        margin: 0 150px 0 150px;
+
+    }
+}
+@media (max-width: 520px) {
+    header .isimDes {
+        /* background: none; */
+        width: 75%;
+        font-size: 16px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    footer i {
+        font-size: 35px;
+        width: 20%;
+    }
+    footer h1 {
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+    footer .fa-instagram {
+        padding-left: 8px;
+    }
+    footer .fa-github{
+        padding-left: 8px;
+    }
+    footer .column {
+        margin-right: 25px;
+    }
+    .numbers .rect {
+        padding-top: 40px;
+    }
+    .numbers .rect_myGames {
+        padding-top: 6px;
+    }
+    .numbers .rect_myGames.colord {
+        padding-top: 6px;
+    }
+}
+@media (max-width: 990px) {
+    
+    .skillsImgExpress {
+        height: 60px;
+    }
+}
+
+@media (max-width: 575px){
+    .skillsRow {
+        margin-top: 10px;
+    }
+}

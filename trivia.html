@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Path Creator</title>
+    <link rel="shortcut icon" href="TemplateData_Trivia/favicon.ico">
+    <link rel="stylesheet" href="TemplateData_Trivia/style.css">
+    <link rel="stylesheet" href="gamePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <script src="TemplateData_Trivia/UnityProgress.js"></script>
+    <script src="Build_Trivia/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build_Trivia/triviaRacer_webgl.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <h1 class="gamePageHeader">MOVE <span class="key"><i class="fas fa-arrow-left"></i></span> <span class="key"><i class="fas fa-arrow-right"></i></span></h1>
+    <p><span class="explain">Find The Correct Answers</span></p>
+    <div class="webgl-content trivia">
+      <div id="unityContainer" style="width: 450px; height: 800.4px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Path Creator</div>
+      </div>
+    </div>
+  </body>
+</html>
