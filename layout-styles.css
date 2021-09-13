@@ -133,8 +133,8 @@ ul .nav-link:hover{
 #mygames {
     margin-top: 80px;
 }
-.my_games_section {
-    margin-top: 10px;
+.gamesImg {
+    border-radius: 20%;
 }
 
 
@@ -216,8 +216,6 @@ ul .nav-link:hover{
     width: 100%;
     background-color: #ddd;
     border-radius: 5px;
-    
-   
 }
 
 #myBar {
