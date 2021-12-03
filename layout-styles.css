@@ -138,7 +138,7 @@ ul .nav-link:hover{
 }
 
 .gamesImgPlus {
-    border: 5px solid goldenrod;
+    border: 5px solid goldenrod !important;
 }
 
 
